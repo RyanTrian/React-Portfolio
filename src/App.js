@@ -1,23 +1,43 @@
+import { useState } from 'react';
 import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
 
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const [currentTab, setCurrentTab] = useState()
+
+  const renderTab = () => {
+    switch (currentTab) {
+      case "Portfolio":
+        return <Portfolio />;
+
+      case "Contact":
+        return <Contact />;
+
+      case "Resume":
+        return <Resume />;
+    
+      default:
+        return <About />;
+    }
+  }
+  const handleTabChange = (tab) => setCurrentTab(tab);
+  
+  return (
+    <>
+      <Header 
+        currentTab = {currentTab}
+        handleTabChange = {handleTabChange}
+      >
+      </Header>
+      <main>
+        {renderTab()}
+      </main>
+    </>
   );
 }
 
