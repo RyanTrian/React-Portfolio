@@ -219,7 +219,7 @@ header nav ul li a:hover {
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color: var(--primary-color);
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
@@ -238,8 +238,8 @@ header nav ul li a:hover {
 .contact-form button {
   width: 100%;
   border: none;
-  background: #F2E3D5;
-  color: #024e76;
+  background: var(--background-color);
+  color: var(--primary-color);
   text-align: center;
   padding: 15px 0;
   font-size: 25px;
@@ -290,7 +290,7 @@ header nav ul li a:hover {
 }
 
 .contact-info a:hover {
-  color: #ACF2E5;
+  color: var(--hover-color);
   transition: .5s ease;
 }
 

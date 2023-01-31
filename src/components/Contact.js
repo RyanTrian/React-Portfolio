@@ -76,7 +76,7 @@ function Contact() {
         {/* contact form section  */}
         <div className="contact-form">
           <h3>Contact Me</h3>
-          <form className="form" action="https://formsubmit.co/mptruong49@gmail.com" method="POST">
+          <form className="form" action="https://formsubmit.co/mptruong49@gmail.com" method="POST" target="_blank">
             {/* Name */}
             <label htmlFor="contact-name">Your Name</label>
             <input
