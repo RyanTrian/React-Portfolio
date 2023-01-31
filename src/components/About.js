@@ -21,7 +21,7 @@ function About() {
               I love organizing, and problem solving. Also, like Dr.Gregory House from "House", anomalies bug me, which is 
             why I spend so much time on debugging. 
             <br></br>
-            I spend my free times listening to podcasts, playing video games and outdoor photography.
+            I spend my free times listening to podcasts, playing video games and doing outdoor photography.
           </p>
         </div>
       </div>
