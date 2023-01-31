@@ -9,7 +9,7 @@
 
 My portfolio made with React. Please, checkout my resume and past works in Resume and Portfolio Tab respectively. You can find my social links at the bottom, I would love to connect.
 
-*Portfolio [Link](https://jate19.herokuapp.com/)*
+*Portfolio [Link](https://ryantrian.github.io/React-Portfolio-WK20/)*
 
 ## Screenshot 📷
 
