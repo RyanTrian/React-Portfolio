@@ -2,6 +2,7 @@ import React from "react";
 import { VscGithubAlt } from "react-icons/vsc";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
+import { SiCodewars } from "react-icons/si";
 
 function Footer() {
   return (
@@ -22,6 +23,11 @@ function Footer() {
           <a href="https://twitter.com/TruogMinh">
             <li className="logo">
               <FaTwitter />
+            </li>
+          </a>
+          <a href="https://www.codewars.com/users/RyanTrian">
+            <li className="logo">
+              <SiCodewars />
             </li>
           </a>
         </ul>
