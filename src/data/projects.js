@@ -1,5 +1,11 @@
 export const projects = [
   {
+    link: "https://spudget.herokuapp.com/",
+    src: "https://user-images.githubusercontent.com/82792300/220975180-30c28824-fd50-4f6e-823a-138ad5fd0e22.png",
+    name: "Spudget",
+    description: `Spudget is a web app for a user who can sign up and view and adjust their budgets. The app can help the user keep track of their spendings. The app includes different graphs for the user to easily view their monthly spending. Spuddy, our potato mascot, will help guide you!`
+  },
+  {
     link: "https://kipschetnan.github.io/Marvelite-Hub/",
     src: "https://user-images.githubusercontent.com/82792300/196270573-0d7dacbd-9142-4cef-a72b-5da9d2d994bd.png",
     name: "Marvelite Hub",
@@ -21,13 +27,6 @@ export const projects = [
     name: "Weather Dashboard",
     description: `With server-side APIs, I made a Weather Dashboard. Utilize OpenWeather APIs, weather data of target city can be rendered on the page. Data includes: 
     current Weather Data, 5 Day / 3 Hour Forecast, and current weather icons.`
-  },
-  {
-    link: "https://github.com/RyanTrian/Note-Taker-WK11.git",
-    src: "https://user-images.githubusercontent.com/82792300/202019017-53c3d443-1a61-45fc-b021-390b10bae966.png",
-    name: "Note Taker",
-    description: `A note taking web app and deploy on Heroku. When user visits the app, they will be presented with a button that direct them to the notes page. User 
-    then can make a new note, save it. The note will be logged, user can review it and delete it.`
   },
   {
     link: "https://ryantrian.github.io/Code-Quiz_WEBAPIs-WK4/",
